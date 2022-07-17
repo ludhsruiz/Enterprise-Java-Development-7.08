@@ -1,0 +1,16 @@
+h1,h2,h3 {
+    padding: 20px;
+}
+
+.details {
+    background-color: lightsteelblue;
+    padding-left: 25px;
+}
+
+.button {
+    margin: 15px;
+    background-color: lightcoral;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}

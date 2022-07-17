@@ -1,0 +1,20 @@
+
+
+h1,h2,h3 {
+    padding: 20px;
+}
+.container {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.row-even {
+    background-color:lavender;
+}
+
+.row-odd {
+    background-color:lightcyan
+}

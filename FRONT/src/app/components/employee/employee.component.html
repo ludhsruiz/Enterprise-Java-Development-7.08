@@ -1,0 +1,14 @@
+<div class="container">
+    <h1>Employees Database</h1>
+</div>
+
+<div class="container">
+    <div *ngFor="let employee of employeeList; let i = index" [ngClass]="{'row-odd':i%2 !==0, 'row-even':i%2 === 0}">
+        <h3 (click)="showTrue(employee)"> {{employee.id}} - {{employee.name}} &#8628;</h3> 
+        <app-details *ngIf="employee.showDetails === true" [employee]="employee" (deleteEmployeeEvent)="deleteEmployee($event)"></app-details>
+    </div>
+    
+</div>
+
+
+
